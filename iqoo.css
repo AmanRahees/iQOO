@@ -1,0 +1,126 @@
+*{
+    font-family:"AvenirNext","Microsoft YaHei","MicrosoftJhengHei",STHeiti,MingLiu,sans-serif,"WebRupee";
+    margin:0;
+    transition: color ease .4s;
+}
+.navbar{
+    width:100%;
+    position:fixed;
+    height: 46px;
+    background-color: #1a1a1a;
+}
+.logo{
+    position:absolute;
+    color:#fff;
+    font-weight: 500;
+    font-size:30px;
+    padding-left:100px;
+}
+.logo:hover{
+    color:orangered;
+}
+.top-ul{
+    list-style: none;
+    margin-left:15%;
+}
+.top-li{
+    float:left;
+}
+.top-a{
+    display: block;
+    padding:10px 20px;
+    color:#fff;
+    text-decoration: none;
+}
+.top-a:hover{
+    color:orangered;
+}
+.user-logo{
+    position: absolute;
+    margin-left:90%;
+    margin-top:5px;
+}
+.user{
+    color:#fff;
+    font-size:26px;
+}
+.user:active{
+    transition: color 0s ease;
+    color:orangered;
+}
+/*-----------------images----------------*/
+.sec1{
+    width:100%;
+    display: flex;
+}
+.sec2{
+    width:100%;
+    display: flex;
+}
+.img1{
+    position:static;
+    transition:0.5s all ease-in-out;
+}
+.img2{
+    position:static;
+}
+.img3{
+    position:static;
+}
+.img4{
+    position:static;
+}
+/*---------------------------*/
+.psa{
+    width:80%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+.lower{
+    font-size: 14px;
+    padding:30px;
+    padding-left:100px;
+}
+.h4-l{
+    font-weight: 300;
+    color:#1a1a1a;
+    padding:3px;
+    text-align: center;
+}
+.p-l{
+    font-weight: 200;
+    padding:3px;
+    color:#999;
+}
+.followus{
+    color:#999;
+    text-align: center;
+    padding:10px;
+    word-spacing: 6vh;
+    font-size:36px;
+}
+.fb:hover{
+    color:#4267B2;
+    transition:.1s ease-in-out;
+}
+.insta:hover{
+    background-image:linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    color:#fff;
+    transition:.5s ease;
+}
+.ytb:hover{
+    color:red;
+}
+.twt:hover{
+    color:#26a7de;
+}
+.cpybg{
+    background-color:#1a1a1a;
+    color:#999;
+    text-align: center;
+}
+.cpyryt{
+    padding:15px;
+}
